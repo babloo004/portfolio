@@ -1,0 +1,93 @@
+#body{
+    background-color: rgb(19, 12, 12);
+    color:white;
+}
+#sub-body{
+    display:flex;
+}
+#menu{
+    background-color: rgba(53,58,64,255);
+    border:1px solid black;
+    min-width: 120px;
+    padding: 10px;
+    position: static;
+}
+#menu-con{
+    color: white;
+    background-color: rgba(53,58,64,255);
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
+#pos{
+    position: fixed;
+}
+#img-div{
+    background-color: rgba(53,58,64,255);
+    border-radius: 5px;
+    padding: 5px;
+}
+#passimg{
+    width:100px;
+    border-radius: 5px;
+    border: 1px solid  #888888;
+}
+#con{
+    border: 1px solid black;
+    min-width: 1200px;
+    padding:20px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#proj{
+    padding: 5px;
+}
+.pr{
+    border: 1px solid #888888;
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:20px;
+}
+.pr:hover{
+    /* box-shadow: 4px 6px red; */
+    border : 3px solid red;
+    color:red;
+}
+.prr{
+    width:900px;
+    height:200px;
+    margin-right: 5px;
+}
+.pa{
+    color :white;
+
+}
+.pimg{
+    width:200px;
+    height: 200px;
+}
+h1{
+    color: #E0115F;
+}
+#skil{
+    display:flex;
+    justify-content: space-evenly;
+}
+.simg{
+    width:100px;
+}
+.simg:hover{
+    transform: scale(0.8);
+}
+a:active{
+    color:red;
+}
+a:hover{
+    color:red;
+}
